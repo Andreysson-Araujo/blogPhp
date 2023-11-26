@@ -10,4 +10,4 @@
         "Java",
         "C#"
     ];
-    print_r($categories[0]);
+    
