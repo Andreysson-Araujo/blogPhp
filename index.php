@@ -5,11 +5,11 @@
     
 ?>
     <main>
-        <div>
-            <h1>AndreyBlog</h1>
+        <div id="title-container">
+            <h1>Drak Blog</h1>
                 <p>O seu blog de t.i</p>
         </div>
-        <div id="post-container">
+        <div id="posts-container">
             <?php foreach($posts as $post):?>
                 <div class="post-box">
                     <img src="<?= $BASE_URL ?>/img/<?= $post["img"] ?>" alt="<?= $post["title"]?>">

@@ -9,7 +9,7 @@ include_once("helpers/url.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlogCodar</title>
+    <title>DrakBlog</title>
     <!--ESTILOS DO PROJETO -->
     <link rel="stylesheet" href="<?= $BASE_URL ?>css/styles.css">
     <!-- GOOGLE FONTS -->
