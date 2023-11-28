@@ -48,10 +48,10 @@ ob_start();
         </div>
     </main>
 </body>
-
 </html>
 
 <?php
+include_once("templates/footer.php");
 // Capture o conteúdo do buffer de saída
 $htmlContent = ob_get_clean();
 
