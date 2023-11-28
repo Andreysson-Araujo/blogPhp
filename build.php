@@ -1,9 +1,9 @@
 <?php
 // Inclua os arquivos necessários
-include_once("templates/header.php");
+
 include_once("data/posts.php");
 include_once("data/categories.php");
-include_once("helpers/url.php");
+
 
 // Inicie o buffer de saída para capturar o HTML gerado
 ob_start();
