@@ -126,6 +126,21 @@ main {
     margin-right: .3125rem;
 }
 
+/*CONTATO */
+#titulo-contato {
+    display:flex;
+    flex-direction: column;
+    margin-top: .625rem;
+    align-items: center;
+}
+
+#contato-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
 
 /*POST*/
 
@@ -209,4 +224,51 @@ footer {
     background-color: #000;
     color: #fff;
     padding: 50px 0;
+}
+
+/* MOBILE */
+
+@media(max-width: 480px) {
+    /*Home*/
+    header {
+        width: 100%;
+    }
+
+    #logo {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+        width: 50px;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #title-container {
+        min-height: 100%;
+        margin-top: 1.25rem;
+    }
+    #post-container {
+        margin-top: 1.25rem;
+    }
+
+    .post-box {
+        flex: 100% 1 0;
+        padding: 15px;
+        margin: 0;
+    }
+
+    /*POST*/
+
+    #post-container {
+        grid-template-columns: 100%;
+        padding: .9375rem;
+        grid-template-areas: "main" "sidebar";
+    }
+
+    .img-container img {
+        width: 100%;
+    }
 }
