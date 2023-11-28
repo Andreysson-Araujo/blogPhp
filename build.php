@@ -25,7 +25,22 @@ ob_start();
 </head>
 
 <body>
+    
     <main>
+    <header>
+        <a href="<?= $BASE_URL ?>" id="logo">
+            <img src="img/logo.svg" alt="BlogCodar"> 
+        </a>
+        <nav>
+            <ul id="navbar">
+                <li><a href="<" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">Categorias</a></li>
+                <li><a href="#" class="nav-link">Sobre</a></li>
+                <li><a href="contato.php" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+        
         <div id="title-container">
             <h1>Drak Blog</h1>
             <p>O seu blog de T.I</p>
