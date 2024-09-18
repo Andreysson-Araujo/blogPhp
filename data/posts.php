@@ -10,23 +10,23 @@
     ],
     [
       'id' => 2,
-      'title' => 'Orientação a Objetos com Python',
-      'description' => 'Aprenda o paradigma de orientação a objetos com Python, uma linguagem em alta no mercado.',
+      'title' => 'Guardião Soturno: Redenção na Escuridão',
+      'description' => 'Um Briga de rua que se passa na bela cidade de Rio Branco, onde o guardião sotruno tem a missão de derrotar os mal-feitores.',
       'tags' => ['Python', 'OOP', 'Programação Avançada'],
       'img' => 'prog-2.jpg'
     ],
     [
       'id' => 3,
-      'title' => 'A importância da lógica de programação',
-      'description' => 'A lógica de programação é o ponto inicial de muitos estudantes de programação, será que é importante?',
+      'title' => '"Só" um drama psicologico experimental',
+      'description' => 'Laura acorda em um hospital deserto e percebe que ão ha mais niguem e a mesma esta isolada porem deve ir atrás de respostas.',
       'tags' => ['lógica', 'programação', 'algoritmos'],
       'img' => 'prog-3.jpg',
     ],
     [
       'id' => 4,
-      'title' => 'Programando em PHP',
-      'description' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de PHP!',
+      'title' => 'Empresa de games apresenta jogo do primeiro super-herói acreano, o Guardião Soturno',
+      'description' => 'Reportagem feita com a Kgame sobre o desenvolvimento de jogos no estado do Acre.',
       'tags' => ['programação', 'PHP', 'lógica de programação'],
-      'img' => 'prog-4.jpg'
+      'img' => 'prog-4.png'
     ],
   ];

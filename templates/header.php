@@ -10,7 +10,7 @@ include_once("data/categories.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DrakBlog</title>
+    <title>Kgame</title>
     <!--ESTILOS DO PROJETO -->
     <link rel="stylesheet" href="<?= $BASE_URL ?>css/styles.css">
     <!-- GOOGLE FONTS -->
@@ -21,12 +21,13 @@ include_once("data/categories.php");
 <body>
     <header>
         <a href="<?= $BASE_URL ?>" id="logo">
-            <img src="<?= $BASE_URL ?>/img/logo.svg" alt="BlogCodar"> 
+            <img src="<?= $BASE_URL ?>/img/kgame.png" alt="BlogCodar"> 
         </a>
         <nav>
             <ul id="navbar">
                 <li><a href="<?= $BASE_URL ?>" class="nav-link">Home</a></li>
-                <li><a href="#" class="nav-link">Categorias</a></li>
+                <li><a href="#" class="nav-link">Noticias</a></li>
+                <li><a href="#" class="nav-link">Jogos</a></li>
                 <li><a href="#" class="nav-link">Sobre</a></li>
                 <li><a href="<?= $BASE_URL ?>contato.php" class="nav-link">Contato</a></li>
             </ul>

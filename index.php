@@ -7,11 +7,12 @@
 ?>
     <main>
         <div id="title-container">
-            <h1>Drak Blog</h1>
-                <p>O seu blog de t.i</p>
+            <h1>KGAME</h1>
+                <p>em todo Lugar</p>
         </div>
         <div id="posts-container">
             <?php foreach($posts as $post):?>
+               
                 <div class="post-box">
                     <img src="<?= $BASE_URL ?>/img/<?= $post["img"] ?>" alt="<?= $post["title"]?>">
                     <h2 class="post-title">

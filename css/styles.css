@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #000;
 }
 
 html {
@@ -11,6 +12,9 @@ html {
 }
 main {
     margin-bottom: 15.625rem;   
+}
+h1 {
+    color: #FFF;
 }
 
 /*navbar*/
@@ -22,14 +26,14 @@ main {
 }
 
 #logo img {
-    width: 3.125rem;
+    width: 90px;
 }
 
 #navbar{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #161616;
+    background-color: #000000;
     padding: 1.25rem;
     text-transform: uppercase;
     list-style: none;
@@ -62,6 +66,7 @@ main {
 
 #title-container h1 {
     font-size: 3.125rem;
+    
 }
 
 
@@ -103,7 +108,7 @@ main {
 }
 
 .post-box  .post-title a {
-    color: #000 ;
+    color: #fff ;
     transition: 5s;
 } 
 
